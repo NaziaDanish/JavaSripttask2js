@@ -1,11 +1,11 @@
 // 1) Declare variable using var. Show examples of different data types
 console.log("1) Data Types Examples:");
 
-var myString = "Hello, JavaScript";       // String
-var myNumber = 42;                         // Number
-var myBoolean = true;                      // Boolean
-var myObject = { name: "Nazia", age: 30 }; // Object
-var myArray = ["Ali", "Sara", "Ahmed"];    // Array
+var myString = "Hello, Nazia Mansoor Ali";      
+var myNumber = 32;                              
+var myBoolean = true;                     
+var myObject = { name: "Nazia", age: 30 }; 
+var myArray = ["Ali", "Sara", "Ahmed"];   
 
 console.log("String:", myString);
 console.log("Number:", myNumber);
@@ -25,18 +25,19 @@ console.log("Subtraction:", num1 - num2);
 console.log("Multiplication:", num1 * num2);
 console.log("Division:", num1 / num2);
 console.log("Modulus (Remainder):", num1 % num2);
+
 // now i am giving another example of arithmetic operations
 console.log("\n2) Arithmetic Operations:");
 
-// Example numbers (agar user ne 10 aur 3 enter kiya)
+// Example number 2 (agar user ne 10 aur 3 enter kiya)
 var num1 = 10;
 var num2 = 3;
 
-console.log("Addition:", num1 + num2);         // 10 + 3 = 13
-console.log("Subtraction:", num1 - num2);      // 10 - 3 = 7
-console.log("Multiplication:", num1 * num2);   // 10 * 3 = 30
-console.log("Division:", num1 / num2);         // 10 / 3 = 3.333...
-console.log("Modulus (Remainder):", num1 % num2); // 10 % 3 = 1
+console.log("Addition:", num1 + num2);       
+console.log("Subtraction:", num1 - num2);     
+console.log("Multiplication:", num1 * num2);   
+console.log("Division:", num1 / num2);         
+console.log("Modulus (Remainder):", num1 % num2); 
 
 
 // 3) Check if number is positive, negative, or zero
@@ -76,14 +77,3 @@ console.log("After sort:", students);
 students.reverse();
 console.log("After reverse:", students);
 
-// Extra: shift, unshift, slice, splice
-students.unshift("Taha"); // Add to start
-console.log("After unshift (Add Taha):", students);
-
-students.shift(); // Remove from start
-console.log("After shift (Remove first):", students);
-
-console.log("Slice (0 to 3):", students.slice(0, 3)); // Slice example
-
-students.splice(2, 1, "Hina"); // Replace 1 item at index 2
-console.log("After splice (replace index 2 with Hina):", students);
